@@ -9,6 +9,6 @@ public class HelloController {
 	
     @RequestMapping("/hello")
     public String index(@RequestParam String name) {
-        return "hello "+name+"，我是服务端";
+        return "hello "+name+"，this is first messge";
     }
 }
